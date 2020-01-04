@@ -71,8 +71,6 @@ public class BaseController<S extends BaseService,T extends BaseEntity> {
     @RequestMapping("queryData")
     public ResponseResult queryData(HttpServletRequest request){
         Wrapper<T> wrapper = getQueryWrapper(request);
-        System.out.println("+++++++");
-        System.out.println(wrapper);
         return ResponseResult.ok(getService().list(wrapper));
     }
 
