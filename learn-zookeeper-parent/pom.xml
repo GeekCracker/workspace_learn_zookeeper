@@ -30,7 +30,7 @@
     <properties>
         <spring.boot.version>2.1.6.RELEASE</spring.boot.version>
         <mybatis.plus.boot.version>3.2.0</mybatis.plus.boot.version>
-        <mysql.connector.version>5.1.44</mysql.connector.version>
+        <mysql.connector.version>8.0.28</mysql.connector.version>
         <zookeeper.version>3.4.6</zookeeper.version>
         <dubbo.spring.boot.version>2.7.4.1</dubbo.spring.boot.version>
         <curator.version>4.0.1</curator.version>
